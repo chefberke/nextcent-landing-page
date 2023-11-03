@@ -1,0 +1,208 @@
+:root {
+    --navtext: #4D4D4D;
+    --navtext-2: #717171;
+    --primary: #4CAF4F;
+    --secondary: #263238;
+    --slider-bg: #f4f4f4;
+    --slider-dot: #3e9641;
+    --slider-dot-2: #87c989;
+}
+
+
+@media (max-width: 1150px) { 
+    article {
+        flex-wrap: wrap;
+    }
+
+    #systems-inside {
+        flex-wrap: wrap;
+    }
+
+    footer {
+        padding: 3rem;
+        gap: 3rem;
+    }
+
+}
+
+@media (max-width: 1100px) {
+    #home-slider {
+        margin-left: 2rem;
+        margin-right: 2rem;
+        padding: 2rem;
+        width: auto;
+        height: auto;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .nav-menu {
+        display: block;
+    }
+
+    .nav-menu-inside ul {
+        background-color: var(--primary);
+        border-radius: 5px;
+        width: auto;
+        height: auto;
+        color: var(--slider-bg);
+        padding: 0.7rem;
+        position: absolute;
+        right: 6rem;
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .nav-menu-inside ul li {
+        cursor: pointer;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .nav-menu-inside ul li:hover {
+        opacity: 0.8;
+    }
+
+    .nav-menu-inside ul li:first-child {
+        border: none;
+    }
+
+    .nav-menu span {
+        cursor: pointer;
+    }
+
+    .nav-menu span:hover {
+        opacity: 0.8;
+    }
+
+}
+
+@media (max-width: 890px) {
+    footer {
+        flex-wrap: wrap;
+        width: auto;
+        height: auto;
+        padding: 2rem;
+    }
+}
+
+@media (max-width: 850px) {
+    #home-slider-inside {
+        flex-wrap: wrap-reverse;
+    }
+}
+
+@media (max-width: 772px) {
+    .nav-menu-inside ul {
+        right: 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+
+    body {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .systems-header {
+        text-align: center;
+    }
+
+    nav {
+        margin-left: 2rem;
+        margin-right: 2rem;
+        justify-content: space-between;
+    }
+
+    #local {
+        flex-wrap: wrap;
+        margin-top: 2rem;
+    }
+
+    .local-stats div:last-child {
+        padding-top: 1rem;
+    }
+
+    .local-content {
+        text-align: center;
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+    }
+
+    .local-stats {
+        margin-top: 2rem;
+    }
+
+    .tesla-news-image {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .tesla-news-content {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .tesla-news-footer p {
+        display: block;
+        font-size: 0.9rem;
+    }
+
+
+.tesla-news-footer img {
+    width: 100%;
+}
+
+    .tesla-news-footer p span {
+        display: none;
+    }
+}
+
+@media (max-width: 650px) {
+    nav {
+        margin-left: 2rem;
+        margin-right: 2rem;
+        justify-content: space-between;
+    }
+
+    .client-img {
+        width: 90%;
+    }
+
+    #home-slider-inside img {
+        width: 14rem;
+        margin: 0;
+    }
+
+    #home-slider-inside {
+        margin: 0;
+    }
+
+    footer {
+        margin: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    footer div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .footer-span {
+        display: none;
+    }
+}
